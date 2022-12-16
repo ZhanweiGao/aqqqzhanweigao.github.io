@@ -1,0 +1,52 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+title: Yueying Ni
+description: >- # this means to ignore newlines until "baseurl:"
+  Postdoc researcher
+baseurl: "/" # the subpath of the site
+url: "https://yueyingn.github.io" # the base hostname & protocol for the site
+og_image: /assets/img/me.jpeg
+google_analytics: "UA-121636368-3"
+
+header:
+  pages:
+    - name: Home
+      slug: /
+    - name: Research
+    - name: CV
+      slug: "https://yueyingn.github.io/YN_CV.pdf"
+
+footer:
+  show_powered_by: False
+  contact:
+    - name: Email
+      value: yueying.ni@cfa.harvard.edu
+      link: mailto:yueying.ni@cfa.harvard.edu
+    
+  follow:
+    - name: yueyingn
+      link: http://github.com/yueyingn
+
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
+plugins:
+  - jekyll-feed
+
+# Excluded items
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - feed.xml
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Used for defeating caching
+version: 1
