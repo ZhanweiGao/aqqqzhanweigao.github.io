@@ -18,7 +18,7 @@ header:
       slug: "https://yueyingn.github.io/YN_CV.pdf"
 
 footer:
-  show_powered_by: False
+  show_powered_by: True
   contact:
     - name: Email
       value: yueying.ni@cfa.harvard.edu
